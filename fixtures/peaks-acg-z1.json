@@ -1,0 +1,10 @@
+{
+  "label": "ACG synthetic z1",
+  "precursorMz": 250.0856031503,
+  "chargeHint": 1,
+  "peaks": [
+    { "mz": 72.04441, "intensity": 400 },
+    { "mz": 76.03928, "intensity": 900 },
+    { "mz": 300.0, "intensity": 50 }
+  ]
+}

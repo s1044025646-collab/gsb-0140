@@ -1,0 +1,11 @@
+{
+  "label": "cli-ppm-search",
+  "precursorTolerance": 10,
+  "precursorUnit": "ppm",
+  "fragmentTolerance": 10,
+  "fragmentUnit": "ppm",
+  "charges": [1, 2],
+  "fixedModificationIds": [],
+  "fragmentCharges": [1],
+  "maxMissedCleavages": 1
+}

@@ -1,0 +1,21 @@
+{
+  "name": "peptidematch",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Windows-local protein digestion and peptide MS candidate matching backend (API + CLI + fixtures + tests)",
+  "engines": {
+    "node": ">=22.18.0"
+  },
+  "scripts": {
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "node --test --experimental-strip-types --disable-warning=ExperimentalWarning \"tests/**/*.test.ts\"",
+    "demo": "node --experimental-strip-types --disable-warning=ExperimentalWarning scripts/demo.ts",
+    "start": "node --experimental-strip-types --disable-warning=ExperimentalWarning src/server.ts",
+    "cli": "node --experimental-strip-types --disable-warning=ExperimentalWarning src/cli.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.0",
+    "typescript": "^5.8.0"
+  }
+}
