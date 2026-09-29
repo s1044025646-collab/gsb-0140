@@ -1,0 +1,19 @@
+{
+  "description": "Tolerance boundary spectrum for AAGK (10 ppm fragment tolerance)",
+  "precursorMz": 173.608754,
+  "precursorCharge": 2,
+  "peaks": [
+    {
+      "mz": 72.04511071578273,
+      "intensity": 800
+    },
+    {
+      "mz": 143.08293490622893,
+      "intensity": 800
+    },
+    {
+      "mz": 200.10096676720207,
+      "intensity": 800
+    }
+  ]
+}

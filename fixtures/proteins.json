@@ -1,0 +1,38 @@
+[
+  {
+    "accession": "FAKE_ALPHA",
+    "name": "Fictional albumin-like protein alpha",
+    "sequence": "GKAAGK",
+    "aliases": [
+      "ALPHA_FICTION",
+      "FA01"
+    ]
+  },
+  {
+    "accession": "FAKE_BETA",
+    "name": "Fictional beta protein",
+    "sequence": "LKAAGKR",
+    "aliases": [
+      "BETA_FICTION",
+      "FA02"
+    ]
+  },
+  {
+    "accession": "FAKE_GAMMA",
+    "name": "Fictional gamma protein with edge cases",
+    "sequence": "AKRKPK",
+    "aliases": [
+      "GAMMA_FICTION",
+      "FA03"
+    ]
+  },
+  {
+    "accession": "FAKE_DELTA",
+    "name": "Fictional delta protein with RP exception",
+    "sequence": "ARPGAKR",
+    "aliases": [
+      "DELTA_FICTION",
+      "FA04"
+    ]
+  }
+]

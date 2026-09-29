@@ -1,0 +1,35 @@
+{
+  "description": "Synthetic spectrum for peptide AAGK, precursor z=1",
+  "precursorMz": 346.208495,
+  "precursorCharge": 1,
+  "peaks": [
+    {
+      "mz": 72.04439,
+      "intensity": 1000
+    },
+    {
+      "mz": 143.081504,
+      "intensity": 950
+    },
+    {
+      "mz": 147.112804,
+      "intensity": 850
+    },
+    {
+      "mz": 200.102968,
+      "intensity": 900
+    },
+    {
+      "mz": 204.134268,
+      "intensity": 800
+    },
+    {
+      "mz": 275.171382,
+      "intensity": 750
+    },
+    {
+      "mz": 500,
+      "intensity": 50
+    }
+  ]
+}

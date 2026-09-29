@@ -1,0 +1,27 @@
+{
+  "name": "proteomics-backend",
+  "version": "1.0.0",
+  "description": "Local protein digestion and peptide MS candidate matching backend",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "proteomics-cli": "dist/cli/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node scripts/start.mjs",
+    "stop": "node scripts/stop.mjs",
+    "cli": "node --import tsx src/cli/index.ts",
+    "test": "node --import tsx --test \"test/domain/*.test.ts\" \"test/services/*.test.ts\" \"test/api/*.test.ts\" \"test/cli/*.test.ts\" \"test/e2e/*.test.ts\"",
+    "demo": "node --import tsx scripts/demo.ts",
+    "fixtures": "node --import tsx scripts/make-fixtures.ts",
+    "clean": "node scripts/clean.js",
+    "migrate": "node --import tsx scripts/migrate.ts"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}

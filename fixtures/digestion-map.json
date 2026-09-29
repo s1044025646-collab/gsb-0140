@@ -1,0 +1,118 @@
+{
+  "FAKE_ALPHA": [
+    {
+      "sequence": "GK",
+      "start": 1,
+      "end": 2,
+      "missedCleavages": 0
+    },
+    {
+      "sequence": "GKAAGK",
+      "start": 1,
+      "end": 6,
+      "missedCleavages": 1
+    },
+    {
+      "sequence": "AAGK",
+      "start": 3,
+      "end": 6,
+      "missedCleavages": 0
+    }
+  ],
+  "FAKE_BETA": [
+    {
+      "sequence": "LK",
+      "start": 1,
+      "end": 2,
+      "missedCleavages": 0
+    },
+    {
+      "sequence": "LKAAGK",
+      "start": 1,
+      "end": 6,
+      "missedCleavages": 1
+    },
+    {
+      "sequence": "LKAAGKR",
+      "start": 1,
+      "end": 7,
+      "missedCleavages": 2
+    },
+    {
+      "sequence": "AAGK",
+      "start": 3,
+      "end": 6,
+      "missedCleavages": 0
+    },
+    {
+      "sequence": "AAGKR",
+      "start": 3,
+      "end": 7,
+      "missedCleavages": 1
+    },
+    {
+      "sequence": "R",
+      "start": 7,
+      "end": 7,
+      "missedCleavages": 0
+    }
+  ],
+  "FAKE_GAMMA": [
+    {
+      "sequence": "AK",
+      "start": 1,
+      "end": 2,
+      "missedCleavages": 0
+    },
+    {
+      "sequence": "AKR",
+      "start": 1,
+      "end": 3,
+      "missedCleavages": 1
+    },
+    {
+      "sequence": "AKRKPK",
+      "start": 1,
+      "end": 6,
+      "missedCleavages": 2
+    },
+    {
+      "sequence": "R",
+      "start": 3,
+      "end": 3,
+      "missedCleavages": 0
+    },
+    {
+      "sequence": "RKPK",
+      "start": 3,
+      "end": 6,
+      "missedCleavages": 1
+    },
+    {
+      "sequence": "KPK",
+      "start": 4,
+      "end": 6,
+      "missedCleavages": 0
+    }
+  ],
+  "FAKE_DELTA": [
+    {
+      "sequence": "ARPGAK",
+      "start": 1,
+      "end": 6,
+      "missedCleavages": 0
+    },
+    {
+      "sequence": "ARPGAKR",
+      "start": 1,
+      "end": 7,
+      "missedCleavages": 1
+    },
+    {
+      "sequence": "R",
+      "start": 7,
+      "end": 7,
+      "missedCleavages": 0
+    }
+  ]
+}
